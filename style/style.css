@@ -1,0 +1,42 @@
+/* @import url(reset.css); */
+.box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 500px;
+    height: 200px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+body {
+    background: rgb(0, 54, 88);
+    background: linear-gradient(90deg, rgba(0, 54, 88, 1) 2%, rgba(4, 64, 96, 1) 4%, rgba(2, 0, 36, 1) 23%, rgba(3, 28, 62, 1) 39%, rgba(0, 93, 168, 1) 68%, rgba(35, 35, 134, 1) 81%, rgba(6, 6, 73, 1) 94%);
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: rgb(0, 255, 111);
+    background: linear-gradient(90deg, rgba(0, 255, 111, 1) 17%, rgba(162, 255, 35, 1) 35%, rgba(255, 245, 38, 1) 50%, rgba(249, 255, 0, 1) 76%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 400% 400%;
+    animation: gr 4s ease infinite;
+}
+@keyframes gr{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position:100% 50% ;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
